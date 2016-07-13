@@ -10,6 +10,11 @@ columnist:
 baseurl: ''
 prose:
   rooturl: '_posts'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
 translations:
   en:
     tagline: "Teach OpenStreetMap Step by Step"
